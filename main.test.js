@@ -30,6 +30,19 @@ for(const trues of arr){
 }return count
 }
 
+/*---*/
+const makeFriendly = function(paragraph){
+  let newStr = ''
+    for (const para of paragraph)
+    if (para === '.') {
+    newStr+= '!'
+    }
+    else { newStr += para 
+    }
+    return newStr
+  }
+  
+
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
