@@ -16,11 +16,19 @@ const countSpaces = function (str) {
     if(space === ' ') {
       space++
     }
-  }
-  return count
+  }return count
+  
 }
 
-
+/*---*/
+const countTrues = function(arr){
+let count = 0;
+for(const trues of arr){
+  if(trues === true){
+    count++
+  }
+}return count
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
