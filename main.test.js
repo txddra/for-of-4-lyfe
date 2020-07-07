@@ -53,9 +53,17 @@ const cubeAll = function (arr) {
 
 
 /*---*/
-const addNoises = function(arr){
-let noises = [];
 
+const addNoises = function (arr) {
+  let noises = [];
+  for (const animal of arr) {
+let pup = arr === 'Fido' || arr === 'Rolph'|| arr === 'Maisie';
+
+    if (pup) {
+      noises.push(`${arr} says "Woof"!`)
+
+    } 
+  }
 }
 
 /*********************************
