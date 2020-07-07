@@ -13,41 +13,49 @@ const addAll = function (arr) {
 const countSpaces = function (str) {
   let count = 0;
   for (const space of str) {
-    if(space === ' ') {
-      space++;
+    if (space === ' ') {
+      count++;
     }
-  }return count;
-  
+  } return count;
+
 }
 
 /*---*/
-const countTrues = function(arr){
-let count = 0;
-for(const trues of arr){
-  if(trues === true){
-    count++;
-  }
-}return count;
+const countTrues = function (arr) {
+  let count = 0;
+  for (const trues of arr) {
+    if (trues === true) {
+      count++;
+    }
+  } return count;
 }
 
 /*---*/
-const makeFriendly = function(paragraph){
+const makeFriendly = function (paragraph) {
   let newStr = ''
-    for (const para of paragraph)
+  for (const para of paragraph)
     if (para === '.') {
-    newStr+= '!';
+      newStr += '!';
     }
-    else { newStr += para ;
+    else {
+      newStr += para;
     }
-    return newStr;
-  }
-  
+  return newStr;
+}
+
 /*---*/
-const cubeAll = function(arr){
-let cubed = [];
-for(const array of arr){
-  cubed.push(array**3)
-}return cubed;
+const cubeAll = function (arr) {
+  let cubed = [];
+  for (const array of arr) {
+    cubed.push(array ** 3)
+  } return cubed;
+}
+
+
+/*---*/
+const addNoises = function(arr){
+let noises = [];
+
 }
 
 /*********************************
