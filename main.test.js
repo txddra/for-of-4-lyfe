@@ -5,18 +5,18 @@
 const addAll = function (arr) {
   let sum = 0;
   for (const num of arr) {
-    sum += num
+    sum += num;
   }
-  return sum
+  return sum;
 }
 /*---*/
 const countSpaces = function (str) {
   let count = 0;
   for (const space of str) {
     if(space === ' ') {
-      space++
+      space++;
     }
-  }return count
+  }return count;
   
 }
 
@@ -25,9 +25,9 @@ const countTrues = function(arr){
 let count = 0;
 for(const trues of arr){
   if(trues === true){
-    count++
+    count++;
   }
-}return count
+}return count;
 }
 
 /*---*/
@@ -35,13 +35,20 @@ const makeFriendly = function(paragraph){
   let newStr = ''
     for (const para of paragraph)
     if (para === '.') {
-    newStr+= '!'
+    newStr+= '!';
     }
-    else { newStr += para 
+    else { newStr += para ;
     }
-    return newStr
+    return newStr;
   }
   
+/*---*/
+const cubeAll = function(arr){
+let cubed = [];
+for(const array of arr){
+  cubed.push(array**3)
+}return cubed;
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
