@@ -4,12 +4,21 @@
 
 const addAll = function (arr) {
   let sum = 0;
-  for (num of arr) {
+  for (const num of arr) {
     sum += num
   }
   return sum
 }
-
+/*---*/
+const countSpaces = function (str) {
+  let count = 0;
+  for (const space of str) {
+    if(space === ' ') {
+      space++
+    }
+  }
+  return count
+}
 
 
 
